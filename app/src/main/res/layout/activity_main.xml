@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+<!--    android:background="@color/background_color"-->
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fill"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/Name"
+        android:inputType="textCapSentences"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/street"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/Address"
+        android:inputType="textCapSentences"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_btn"
+        android:text="@string/save"
+        android:textColor="@color/text"
+        android:textAppearance="?android:textAppearanceSmall" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Reason"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/radio_one"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/One"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:background="@drawable/rounded_radio"
+            android:drawableStart="@drawable/ic_local_hospital_24px"/>
+        <RadioButton
+            android:id="@+id/radio_two"
+            android:layout_marginTop="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Two"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:background="@drawable/rounded_radio"
+            android:drawableStart="@drawable/ic_local_grocery_store_black_18dp"/>
+        <RadioButton
+            android:id="@+id/radio_three"
+            android:layout_marginTop="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Three"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:background="@drawable/rounded_radio"
+            android:drawableStart="@drawable/ic_account_balance_24px"/>
+        <RadioButton
+            android:id="@+id/radio_four"
+            android:layout_marginTop="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Four"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:background="@drawable/rounded_radio"
+            android:drawableStart="@drawable/ic_accessible_24px"/>
+        <RadioButton
+            android:id="@+id/radio_five"
+            android:layout_marginTop="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Five"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:background="@drawable/rounded_radio"
+            android:drawableStart="@drawable/ic_people_alt_24px"/>
+        <RadioButton
+            android:id="@+id/radio_six"
+            android:layout_marginTop="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Six"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:background="@drawable/rounded_radio"
+            android:drawableStart="@drawable/ic_directions_run_24px"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_btn"
+        android:text="@string/button"
+        android:textStyle="bold"
+        android:textColor="@color/text"
+        android:onClick="sendSms"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/message"
+        android:textSize="10sp"
+        />
+
+    <ProgressBar
+        android:id="@+id/loading_spinner"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+
+</LinearLayout>

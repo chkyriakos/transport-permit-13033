@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">13033</string>
+    <string name="fill">Συμπληρώστε τα στοιχεία σας</string>
+    <string name="Name">Ονοματεπώνυμο</string>
+    <string name="Address">Οδός και Αριθμός</string>
+    <string name="save">Αποθήκευση στοιχείων</string>
+    <string name="Reason">Επιλέξτε λόγο μετακίνησης</string>
+    <string name="One">1: Φαρμακείο/Γιατρός</string>
+    <string name="Two">2: Super Market</string>
+    <string name="Three">3:Τράπεζα</string>
+    <string name="Four">4: Παροχή βοήθειας</string>
+    <string name="Five">5: Μεταβαση σε Τελετή</string>
+    <string name="Six">6: Ατομική άσκηση/Κατοικίδιο ζώο</string>
+    <string name="button">Αποστολη Μηνυματος 13033</string>
+    <string name="message">Τα στοιχεία σας αποθηκεύονται μόνο στη συσκευή σας για δική σας ευκολία!</string>
+
+</resources>
