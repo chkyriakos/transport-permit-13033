@@ -3,7 +3,7 @@
 <img src="./images/person-playstore.png" width="25%">
 
 
-This application was designed during the COVID-19 outbreak to simplify the procedure to send a message to the Greek goverment to get permission to get out of the house in just 2 clicks after saving your data locally the first time if you want to.
+This application was designed during the COVID-19 outbreak to simplify the procedure to send a message to the Greek goverment to get permission to get out of the house in just 2 clicks, for one out of six reasons, after saving your data locally the first time, if you want to.
 
 ## User Interface
 
