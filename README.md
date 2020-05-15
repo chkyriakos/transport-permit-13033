@@ -7,9 +7,7 @@ This application was designed during the COVID-19 outbreak to simplify the proce
 
 ## User Interface
 
-<img src="./images/Screenshot_1.jpg" width="40%">
-
-<img src="./images/Screenshot_2.jpg" width="40%">
+<img src="./images/screen.jpg" width="80%">
 
 ## Getting Started
 
